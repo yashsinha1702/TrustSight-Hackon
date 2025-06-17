@@ -1,0 +1,13 @@
+# Ignore all sensitive/heavy data
+models/
+final_images/
+reference_images/
+brand_logos/
+products.csv
+
+*.pth
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.zip
