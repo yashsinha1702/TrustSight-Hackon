@@ -1,0 +1,1092 @@
+{
+  "analysis_metadata": {
+    "total_products": 73,
+    "analysis_date": "2025-06-22T17:47:00.740264",
+    "pipeline_used": false,
+    "backend_path": "/home/atharvwarade/backend",
+    "version": "1.0"
+  },
+  "results": [
+    {
+      "product_id": "B_COUNTERFEIT_001",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737156",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_002",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737193",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_003",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737229",
+      "fallback": true
+    },
+    {
+      "product_id": "B_EXIT_SCAM_001",
+      "trust_score": 30,
+      "fraud_indicators": [
+        {
+          "type": "EXIT_SCAM_RISK",
+          "severity": "HIGH",
+          "description": "Seller associated with exit scam patterns"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Seller associated with exit scam patterns"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737249",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_001",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737283",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_001",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.737353",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_004",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737374",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_005",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737412",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_002",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737457",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_002",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.737481",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_006",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737521",
+      "fallback": true
+    },
+    {
+      "product_id": "B_EXIT_SCAM_002",
+      "trust_score": 30,
+      "fraud_indicators": [
+        {
+          "type": "EXIT_SCAM_RISK",
+          "severity": "HIGH",
+          "description": "Seller associated with exit scam patterns"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Seller associated with exit scam patterns"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737537",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_003",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737571",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_003",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.737611",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_007",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737651",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_004",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737715",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_004",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.737774",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_008",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737815",
+      "fallback": true
+    },
+    {
+      "product_id": "B_EXIT_SCAM_003",
+      "trust_score": 30,
+      "fraud_indicators": [
+        {
+          "type": "EXIT_SCAM_RISK",
+          "severity": "HIGH",
+          "description": "Seller associated with exit scam patterns"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Seller associated with exit scam patterns"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737856",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_005",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737898",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_005",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.737944",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_009",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.737964",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_010",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738023",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_006",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738044",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_007",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738056",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_008",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738070",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_011",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738080",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_012",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738119",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_006",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738138",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_009",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738152",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_010",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738197",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_013",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738233",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_007",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738273",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_011",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738314",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_014",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738357",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_012",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738423",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_008",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738463",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_015",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738507",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_013",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738549",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_009",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738590",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_016",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738653",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_014",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738697",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_010",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738738",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_017",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738778",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_015",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738799",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_018",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738858",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_011",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738900",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_016",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.738942",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_019",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.738985",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_017",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.739026",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_012",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739070",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_020",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739113",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_018",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.739153",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_013",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739224",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_021",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739267",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_019",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.739315",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_014",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739355",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_022",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739394",
+      "fallback": true
+    },
+    {
+      "product_id": "B_LEGIT_020",
+      "trust_score": 90,
+      "fraud_indicators": [],
+      "verification_status": "VERIFIED",
+      "risk_factors": [],
+      "analysis_timestamp": "2025-06-22T17:47:00.739414",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_015",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739449",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_023",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739495",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_024",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739532",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_016",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739552",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_025",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739588",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_017",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739630",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_026",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739695",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_018",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739737",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_027",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739793",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_019",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739833",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_028",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739853",
+      "fallback": true
+    },
+    {
+      "product_id": "B_REVIEW_FARM_020",
+      "trust_score": 60,
+      "fraud_indicators": [
+        {
+          "type": "FAKE_REVIEWS",
+          "severity": "MEDIUM",
+          "description": "Suspicious review patterns detected"
+        }
+      ],
+      "verification_status": "CAUTION",
+      "risk_factors": [
+        "Suspicious review patterns detected"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739910",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_029",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739953",
+      "fallback": true
+    },
+    {
+      "product_id": "B_COUNTERFEIT_030",
+      "trust_score": 25,
+      "fraud_indicators": [
+        {
+          "type": "COUNTERFEIT_RISK",
+          "severity": "HIGH",
+          "description": "Product flagged as potential counterfeit"
+        }
+      ],
+      "verification_status": "HIGH_RISK",
+      "risk_factors": [
+        "Product flagged as potential counterfeit"
+      ],
+      "analysis_timestamp": "2025-06-22T17:47:00.739994",
+      "fallback": true
+    }
+  ]
+}

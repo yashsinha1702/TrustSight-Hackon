@@ -1,0 +1,200 @@
+/* Enhanced TrustSight Styles - Add to your trustSightStyles.css */
+
+/* Large Score Display on Product Images */
+.trust-score-overlay-large {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.large-score-display {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border: 3px solid rgba(255,255,255,0.3);
+}
+
+.score-number {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.score-percent {
+  font-size: 10px;
+  line-height: 1;
+  margin-top: -2px;
+}
+
+/* Enhanced Trust Badge */
+.trust-badge-enhanced {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 2px solid;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  margin: 8px 0;
+  transition: all 0.3s ease;
+}
+
+.trust-badge-enhanced:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.trust-shield-enhanced {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.trust-info-enhanced {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.trust-label-enhanced {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.trust-score-enhanced {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.analysis-indicator-enhanced {
+  font-size: 10px;
+  color: #666;
+  font-weight: 500;
+  margin-left: auto;
+  padding: 2px 6px;
+  background: rgba(0,0,0,0.05);
+  border-radius: 4px;
+}
+
+/* Product Trust Section */
+.product-trust-section {
+  margin: 10px 0;
+}
+
+/* Enhanced Stats Cards */
+.verified-stat {
+  border-left: 4px solid #00a862;
+  background: linear-gradient(135deg, rgba(0,168,98,0.1), rgba(0,201,107,0.05));
+}
+
+.caution-stat {
+  border-left: 4px solid #ff9900;
+  background: linear-gradient(135deg, rgba(255,153,0,0.1), rgba(255,184,77,0.05));
+}
+
+.high-risk-stat {
+  border-left: 4px solid #d13212;
+  background: linear-gradient(135deg, rgba(209,50,18,0.1), rgba(255,77,77,0.05));
+}
+
+.ai-stat {
+  border-left: 4px solid #6c5ce7;
+  background: linear-gradient(135deg, rgba(108,92,231,0.1), rgba(116,185,255,0.05));
+}
+
+.stat-detail {
+  font-size: 11px;
+  color: #666;
+  margin-top: 4px;
+  display: block;
+}
+
+/* Filter Button Enhancements */
+.filter-options button {
+  transition: all 0.3s ease;
+}
+
+.filter-options button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .large-score-display {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .score-number {
+    font-size: 14px;
+  }
+  
+  .score-percent {
+    font-size: 8px;
+  }
+  
+  .trust-badge-enhanced {
+    padding: 6px 8px;
+    gap: 6px;
+  }
+  
+  .trust-shield-enhanced {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+  
+  .trust-score-enhanced {
+    font-size: 16px;
+  }
+}
+
+/* Animation for trust scores */
+@keyframes pulse-verified {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0,168,98,0.4); }
+  50% { box-shadow: 0 0 0 10px rgba(0,168,98,0); }
+}
+
+@keyframes pulse-caution {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255,153,0,0.4); }
+  50% { box-shadow: 0 0 0 10px rgba(255,153,0,0); }
+}
+
+@keyframes pulse-high-risk {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(209,50,18,0.4); }
+  50% { box-shadow: 0 0 0 10px rgba(209,50,18,0); }
+}
+
+/* Apply animations based on score */
+.large-score-display[style*="00a862"] {
+  animation: pulse-verified 2s infinite;
+}
+
+.large-score-display[style*="ff9900"] {
+  animation: pulse-caution 2s infinite;
+}
+
+.large-score-display[style*="d13212"] {
+  animation: pulse-high-risk 2s infinite;
+}

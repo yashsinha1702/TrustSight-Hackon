@@ -1,0 +1,14 @@
+# Core libraries
+sentence-transformers==2.2.2
+datasets==2.15.0
+
+# Required dependencies with compatible versions
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# Resolve known conflicts
+dill==0.3.7
+fsspec==2023.10.0
+colorama==0.4.4
+urllib3==1.26.18
