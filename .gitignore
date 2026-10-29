@@ -11,3 +11,6 @@ products.csv
 *.png
 *.webp
 *.zip
+
+# README images
+!docs/*.png
